@@ -1,0 +1,15 @@
+D:\Users\mateusz.lukaszewicz\Desktop\nauka\bin\Debug\net6.0\nauka.exe
+D:\Users\mateusz.lukaszewicz\Desktop\nauka\bin\Debug\net6.0\nauka.deps.json
+D:\Users\mateusz.lukaszewicz\Desktop\nauka\bin\Debug\net6.0\nauka.runtimeconfig.json
+D:\Users\mateusz.lukaszewicz\Desktop\nauka\bin\Debug\net6.0\nauka.dll
+D:\Users\mateusz.lukaszewicz\Desktop\nauka\bin\Debug\net6.0\nauka.pdb
+D:\Users\mateusz.lukaszewicz\Desktop\nauka\obj\Debug\net6.0\nauka.csproj.AssemblyReference.cache
+D:\Users\mateusz.lukaszewicz\Desktop\nauka\obj\Debug\net6.0\nauka.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\mateusz.lukaszewicz\Desktop\nauka\obj\Debug\net6.0\nauka.AssemblyInfoInputs.cache
+D:\Users\mateusz.lukaszewicz\Desktop\nauka\obj\Debug\net6.0\nauka.AssemblyInfo.cs
+D:\Users\mateusz.lukaszewicz\Desktop\nauka\obj\Debug\net6.0\nauka.csproj.CoreCompileInputs.cache
+D:\Users\mateusz.lukaszewicz\Desktop\nauka\obj\Debug\net6.0\nauka.dll
+D:\Users\mateusz.lukaszewicz\Desktop\nauka\obj\Debug\net6.0\refint\nauka.dll
+D:\Users\mateusz.lukaszewicz\Desktop\nauka\obj\Debug\net6.0\nauka.pdb
+D:\Users\mateusz.lukaszewicz\Desktop\nauka\obj\Debug\net6.0\nauka.genruntimeconfig.cache
+D:\Users\mateusz.lukaszewicz\Desktop\nauka\obj\Debug\net6.0\ref\nauka.dll
