@@ -19,12 +19,16 @@ namespace nauka1
             p.dane = o1.dane + o2;
             return p;
         }
-        public static P1 operator + (P1 o1)
+        public static P1 operator ++ (P1 o1)
         {
             o1.dane++;
             return o1;
         }
-
+        // public static P1 operator -- (P1 o1)
+        // {
+        //     o1.dane--;
+        //     return o1;
+        // }
 
     }
 
@@ -34,8 +38,8 @@ namespace nauka1
     public static void Main(string[] args)
         {
             P1 o1 = new P1(); o1.dane = 5;
-            P1 o2 = new P1(); o2.dane = 2;
-            P1 o3 = o1 + o2 + 6;
+            P1 o2 = new P1(); o2.dane = 4;
+            P1 o3 = o1++ + o2 + 6;
             System.Console.WriteLine(o3.dane);
             
             
