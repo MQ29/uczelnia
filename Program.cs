@@ -4,24 +4,31 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace nauka1
 {
-    public class c13
-    {
-        private float liczba;
-        public int dane { get; set; }
-
-    }
-    public class demo
+    
+    public class glowna
     {
         public static void Main()
         {
-            c13 obiekt = new c13();
-            obiekt.dane = 100;
-            Console.WriteLine(obiekt.dane);
-            Console.In.ReadLine();
-
+            Operacje <string> obiekt = new Operacje<string>();
+            obiekt.wpisz("tekst");
+            string x = obiekt.Pobierz();
+            System.Console.WriteLine($"Wynik: {x}");
+            
         }
     }
     
+    public class Operacje<Szablon>
+    {
+        Szablon dane;
+        public void wpisz(Szablon item)
+        {
+            dane = item;
+        } 
+        public Szablon Pobierz()
+        {
+            return dane;
+        }
+    }
     
 }
 
