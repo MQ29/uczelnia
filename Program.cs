@@ -9,12 +9,16 @@ namespace nauka1
     {
         public static void Main()
         {
-            Operacje <string> obiekt = new Operacje<string>();
-            obiekt.wpisz("tekst");
-            string x = obiekt.Pobierz();
+            Operacje <Y> obiekt = new Operacje<Y>();
+            obiekt.wpisz(new Y());
+            Y x = obiekt.Pobierz();
             System.Console.WriteLine($"Wynik: {x}");
             
         }
+    }
+    public class Y
+    {
+
     }
     
     public class Operacje<Szablon>
