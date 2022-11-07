@@ -4,27 +4,10 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace nauka1
 {
-    
-    public class glowna
-    {
-        public static void Main()
-        {
-            Operacje <Y> obiekt = new Operacje<Y>();
-            obiekt.wpisz(new Y());
-            Y x = obiekt.Pobierz();
-            System.Console.WriteLine($"Wynik: {x}");
-            
-        }
-    }
-    public class Y
-    {
-
-    }
-    
-    public class Operacje<Szablon>
+    public class Operacje<Szablon, Szablon2>
     {
         Szablon dane;
-        public void wpisz(Szablon item)
+        public void wpisz(Szablon item, Szablon2 item2)
         {
             dane = item;
         } 
@@ -33,6 +16,23 @@ namespace nauka1
             return dane;
         }
     }
+    public class glowna
+    {
+        public static void Main()
+        {
+            Operacje <Y, int> obiekt = new Operacje<Y, int>();
+            obiekt.wpisz(new Y(), 14);
+            Y x = obiekt.Pobierz();
+            System.Console.WriteLine("Wynik");
+            
+        }
+    }
+    public class Y
+    {
+
+    }
+    
+    
     
 }
 
